@@ -1,4 +1,4 @@
-# AutosRUs: MechaCar Analysis
+# MechaCar Analysis - AutosRUs
 
 ## Project Background
 AutosRUs’ has a new car prototype named the MechaCar.  Unfortunately the manufacturing team is running into some trouble.  Not sure how to address the issue, upper management has asked the Data Analytics team, headed by Jeremy, to review and analyze the production data in hopes of uncovering the cause of their issues.
