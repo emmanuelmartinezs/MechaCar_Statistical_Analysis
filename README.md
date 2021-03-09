@@ -13,15 +13,23 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 ## Deliverables:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
 
-- *Deliverable 1:* Linear Regression to Predict MPG
-- *Deliverable 2:* Summary Statistics on Suspension Coils
-- *Deliverable 3:* T-Test on Suspension Coils
-- *Deliverable 4:* Design a Study Comparing the MechaCar to the Competition
+1. ***Deliverable 1:*** Linear Regression to Predict MPG
+2. ***Deliverable 2:*** Summary Statistics on Suspension Coils
+3. ***Deliverable 3:*** T-Test on Suspension Coils
+4. ***Deliverable 4:*** Design a Study Comparing the MechaCar to the Competition
 
+
+## Deliverables:
+This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
+
+* Data Source: `MechaCar_mpg.csv` and `Suspension_Coil.csv`
+* Data Tools:  `tidyverse`, `dplyr`, `ggplot2` and `MechaCarChallenge.RScript`.
+* Software: `RStudio` and `R`
+
+## Resources and Before Start Notes:
 
 ![logo](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/AutoRUs.png?raw=true)
 
-## Resources and Before Start Notes:
 
 ### Install R
 
