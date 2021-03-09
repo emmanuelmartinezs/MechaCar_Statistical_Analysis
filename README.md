@@ -14,7 +14,7 @@ With the internal data supplied to the team via in 2 csv files: **MechaCar_mpg.c
 
 We must first install R before installing RStudio. This way, RStudio can easily find our R installation while being configured; otherwise, we would have to manually tell RStudio where to find our installed applications.
 
-To install R on macOS or Windows, navigate to R's Comprehensive R Archive Network (CRAN) server (Links to an external site.) and select a mirror link near our region. In most cases, any U.S. mirror link will do (see the following images):
+To install R on macOS or Windows, navigate to [R's Comprehensive R Archive Network (CRAN) server](https://cran.r-project.org/mirrors.html) and select a mirror link near our region. In most cases, any U.S. mirror link will do (see the following images):
 
 ![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-2-1-R_Installation-Page-Mirror_Links.png)
 
@@ -37,7 +37,7 @@ Once your installer files are successfully downloaded (.pkg for macOS or .exe fo
 
 ### Install RStudio
 
-Once you have completed the installation for R, it's time to install RStudio. Now navigate to the RStudio Download Page (Links to an external site.) and select the most appropriate installer link. Refer to the following image:
+Once you have completed the installation for R, it's time to install RStudio. Now navigate to the [RStudio Download Page](https://rstudio.com/products/rstudio/download/?utm_source=downloadrstudio&utm_medium=Site&utm_campaign=home-hero-cta#download) and select the most appropriate installer link. Refer to the following image:
 
 ![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-1-R-Studio-Download-Page.png)
 
@@ -63,6 +63,7 @@ On the bottom right is the multi-tool pane, which contains tabs for a file explo
 ![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/data-15-1-3-5-R-Studio-Multi-Tool-Pane.png)
 
 
+Now that we understand RStudio's layout, we'll install our required libraries to use them in our RScripts for this module. Thankfully, R developers have built robust library collections, such as the [tidyverse](https://www.tidyverse.org/), that simplify the installation process for the most common data analysis packages in R. To install packages in our R environment, use the install.packages() function. 
 
 ## Linear Regression to Predict MPG
 We start with a linear regression that explores the relationship of the miles per gallon performance (dependent variable) against the 5 other independent variables: 
