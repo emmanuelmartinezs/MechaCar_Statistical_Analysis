@@ -1,6 +1,6 @@
 # AutosRUs: MechaCar Analysis
 
-![logo](.Resources/Images/AutoRUs.png)
+![logo](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/AutoRUs.png?raw=true)
 
 
 ## Project Background
@@ -26,7 +26,7 @@ We start with a linear regression that explores the relationship of the miles pe
 				
 
 <mark style="background-color: Yellow">**Statistical Summary:**</mark>  
-![d1](./Images/linear_regression_d1.png)
+![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/linear_regression_d1.png)
 
 From the above output we can see that:
 
@@ -40,7 +40,7 @@ the **vehicle weight**, **spoiler angle**, and **All Wheel Drive** (AWD) have p-
 
 If we remove the less impactful independent variables (vehicle weight, spoiler angle, and All Wheel Drive), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674. 
 
-![d1](./Images/new_linear_regression_d1.png)
+![d1](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/new_linear_regression_d1.png)
 
 ## Summary Statistics on Suspension Coils
 
@@ -48,11 +48,11 @@ The Suspension Coil dataset provided for the MechaCar contains the results of te
 
 First looking at all manufacturing lots:
 
-![d2](./Images/total_lot_summary.png)
+![d2](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/total_lot_summary.png)
 
 Diving a little deeper into each of the 3 lots:
 
-![d2](./Images/manufactoring_lot_summary.png)
+![d2](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/manufactoring_lot_summary.png)
 
 With the understanding that the design specifications for the MechaCar suspension coils mandate that <mark style="background-color: Yellow">**the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI)**</mark> . 
 
@@ -64,13 +64,13 @@ Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within th
 
 This very simple boxplot illustrates the differences between the lots:
 
-![d2](./Images/boxplot2.png)
+![d2](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/boxplot2.png)
 
 ## t-Tests on Suspension Coils
 The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed **population mean of 1500**, we find the following:
 
 There is a summary of the t-test results across <mark style="background-color: Yellow">**all manufacturing lots**</mark>
-![d3](./Images/t_test_all.png)
+![d3](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/t_test_all.png)
 
 From here we can see the **true mean of the sample is 1498.78**, which we also saw in the summary statistics above.  With a **p-Value of 0.06**, which is higher than the common significance level of 0.05, there is **NOT enough evidence to support rejecting the null hypothesis**.  That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500. 
 
@@ -80,7 +80,7 @@ From here we can see the **true mean of the sample is 1498.78**, which we also s
 2. Lot 2 has essentially the same outcome with a **sample mean of 1500.02**, a **p-Value of 0.61**; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
 3. However, Lot 3, not surprisingly is a different scenario. Here **the sample mean is 1496.14** and the **p-Value is 0.04**, which is lower than the common significance level of 0.05.  All indicating to **reject the null hypothesis** that this sample mean and the presumed population mean are not statistically different.
 
- ![d3](./Images/t_test_lot.png)
+ ![d3](https://github.com/emmanuelmartinezs/MechaCar_Statistical_Analysis/blob/main/Resources/Images/t_test_lot.png)
 
 How does this information help?  Clearly, something went awry in Lot 3's production cycle. The process needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
 
