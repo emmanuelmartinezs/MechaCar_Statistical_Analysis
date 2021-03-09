@@ -225,28 +225,25 @@ The statistical study design has the following:
 - A null hypothesis or an alternative hypothesis is described
 - A statistical test is described to test the hypothesis
 
-An example of a future study design for the MechaCar might involve 2 parts:
-1. from a list of given factors, which are the statistically most relevant to determine the selling price for this genre of car
-2. how does MechaCar stack up against its competition in perceived value (i.e. selling price set properly or not)
 
 This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
 
-We start by answering some questions...
-
-*  what are the competitions' comparable models, ***which cars will MechaCar be competing with head-to-head? which cars will be included in the study?***
-*   what factors will the study look at to determine the top statistically relevant to selling price.
+* What are the competitions' comparable models, 
+* Which cars will MechaCar be competing with head-to-head? which cars will be included in the study?
+* Which factors will look at the study to determine the relevant to selling price?
  
 
 #### Metrics
 Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
 
-*  actual selling price: *dependent variable*
-*  miles per gallon (fuel efficiency): *independent variable*
-*  engine type (electric, hybrid, fuel): *independent variable*
-*  residual value (or resale value): *independent variable*
-*  average annual cost of ownership (maintenance): *independent variable*
-*  Safety Rating (feature): *independent variable*
-*  Drive Package (AWD, front, rear, four): *independent variable*
+*  Safety Feature Rating: **Independent Variable**
+*  Current Price (Selling): **Dependent Variable**
+*  Drive Package : **Independent Variable**
+*  Engine (Electric, Hybrid, Gasoline / Conventional): **Independent Variable**
+*  Resale Value: **Independent Variable**
+*  Average Annual Cost of ownership (Maintenance): **Independent Variable**
+*  MPG (Gasoline Efficiency): **Independent Variable**
+
 
 #### Hypothesis: Null and Alternative
 After determining which factors are key for the MechaCar's genre:
