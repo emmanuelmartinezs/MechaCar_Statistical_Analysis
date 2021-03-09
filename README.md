@@ -86,7 +86,23 @@ On the bottom right is the multi-tool pane, which contains tabs for a file explo
 
 Now that we understand RStudio's layout, we'll install our required libraries to use them in our RScripts for this module. Thankfully, R developers have built robust library collections, such as the [tidyverse](https://www.tidyverse.org/), that simplify the installation process for the most common data analysis packages in R. To install packages in our R environment, use the install.packages() function. 
 
+
+> Let's move on!
+
+# Deliverable 1:  
 ## Linear Regression to Predict MPG
+### Deliverable Requirements:
+
+The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the `MechaCar_mpg.csv file`. 
+
+> To Deliver. 
+
+- The MechaCar_mpg.csv file is imported and read into a dataframe
+- An RScript is written for a linear regression model to be performed on all six variables
+- An RScript is written to create the statistical summary of the linear regression model with the intended p-values
+- There is a summary that addresses all three questions
+
+
 We start with a linear regression that explores the relationship of the miles per gallon performance (dependent variable) against the 5 other independent variables: 
 
 * length of the vehicle
